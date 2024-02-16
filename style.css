@@ -1,0 +1,559 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: lightpink;
+  color: deeppink;
+  padding: 60px;
+  text-align: center;
+  border: 20px solid #F64A8A;
+  
+  
+}
+
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px black;
+  
+}
+
+.nav-links li {
+  margin-right: 30px;
+  
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+header {
+  background-color: #f2f2f2;
+  padding: 200px;
+  text-align: center;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 60%;
+  
+}
+
+header h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 37px;
+  text-shadow: 1px 2px 4px red;
+}
+
+header h2{
+  color: white;
+  font-size: 33px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 2px 4px hotpink;
+}
+
+header h3{
+  color: white;
+  font-size: 32px;
+  font-family: cursive;
+  text-shadow: 1px 2px 4px deeppink;
+}
+
+/* About Me Section */
+#about {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  padding: 100px;
+  text-align: center;
+  background-image: url("allbg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border: 20px solid #FC8EAC;
+}
+
+#about h1{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 2px 5px hotpink;
+  text-transform: uppercase;
+  border: 10px dashed deeppink;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 30px;
+}
+
+#about h3 {
+  font-size: 45px;
+  font-family: cursive;
+  text-shadow: 2px 3px 4px black;
+  color: white
+}
+
+.about-content p{
+  text-align: left;
+  font-size: 27px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 4px 5px 10px black;
+  
+}
+
+img{
+  border-radius: 30%;
+  border: 10px solid palevioletred;
+  padding: 25px;
+  margin: 15px;
+  
+}
+  
+  
+
+/* Skills Section */
+#skills {
+  background-image: url("allbg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 200px;
+  border: 20px solid #FF66CC;
+}
+
+
+
+#skills h2{
+  font-size: 50px;
+  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 2px 5px yellow;
+  text-transform: uppercase;
+  border: 10px dashed red;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 30px;
+  }
+
+
+.htmlskills {
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.htmlskills h4 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.htmlskills img{
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cssskills h4 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cssskills img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.javascriptskills h4 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.javascriptskills img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.sqlmysqlskills h4 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.sqlmysqlskills img {
+  width: 250px;
+  height: 180px;
+  border-radius: 10%;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+/* Works Section */
+#works {
+  padding:200px;
+  text-align: center;
+  background-image: url("allbg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border: 20px solid mediumvioletred;
+  
+}
+
+#works img{
+  width: 500px;
+  height: 250px;
+  border-radius: 10%;
+  border: 10px solid yellow;
+  padding: 10px;
+  margin: 5px;
+  align-items: left;
+  align-content: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  margin: 25px
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table ;
+}
+
+.column h1{
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 2px 3px white;
+  font-size: 30px;
+  
+}
+
+#works h2 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 2px 5px yellow;
+  text-transform: uppercase;
+  border: 10px dashed darkviolet;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 30px;
+}
+
+.calculatorlink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.resumelink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.columnsecond {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  margin: 25px;
+}
+
+.rowsecond::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columnsecond h1 {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 2px 3px white;
+  font-size: 30px;
+
+}
+
+.colorchangerlink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.addEventListenerlink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.columnthird {
+  float: right;
+  width: 33.33%;
+  padding: 20px;
+  margin: 25px;
+}
+
+.rowthird::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columnthird h1 {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 2px 3px white;
+  font-size: 30px;
+
+}
+.responsivelink {
+    background-color: hotpink;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+
+  
+.todolistlink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.quizlink {
+  background-color: hotpink;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+ 
+/* Contact Section */
+#contact {
+  padding: 200px;
+  border: 20px solid hotpink;
+  background-image: url("allbg.jpeg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%; 
+}
+
+#contact h2{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 2px 5px hotpink;
+  text-transform: uppercase;
+  border: 10px dashed deeppink;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+ .contactcontainer{
+    min-height: 1000px;
+    width: 100%;
+  }
+
+  .facebook{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+  }
+  
+  .facebook img{
+    border-radius: 30%;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 5px;
+    
+  }
+  
+  .facebook b{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .facebook span {
+    font-size: 45px;
+    font-family: cursive;
+    text-shadow: 1px 2px 4px hotpink;
+  }
+  
+  .facebook p {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    text-shadow: 1px 2px 4px white;
+    color: black;
+    border: 10px solid violet;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+  }  
+  
+/*Contact Section*/
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form label {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+#contact-form input,
+#contact-form textarea {
+  height: 150%;
+  width: 150%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+
+#contact-form button {
+  background-color: magenta;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+/* Footer */
+footer {
+  background-image: url("allbg.jpeg");
+  border: 10px solid magenta;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
