@@ -173,13 +173,16 @@
               
               <p> If you have any questions about my portfolio.Kindly messange me on the accounts above or kindly fill up the form below to directly contact me. Thank you!</p><br><br><br>
 
-        <form id="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="e665aff3-c8c3-4183-8a9e-8212105791d6">
+            
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Send Message</button>
         </form>
     </section>
